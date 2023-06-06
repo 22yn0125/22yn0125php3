@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>JavaScript入門</title>
+	</head>
+	<body>
+	  <h1 id="id1" align="center">CSS3による回転アニメーション</h1>
+		<script>
+		var d = 0;
+		function rotationChar(){
+		
+		d += 6;
+		d = d%360;
+	    document.getElementById('id1').style.transform = 'rotateX('+d+'deg)';
+	    }
+		
+		//10ミリ秒ごとに関数実行
+		setInterval(rotationChar,25);
+
+		</script>
+		
+	</body>
+</html>
