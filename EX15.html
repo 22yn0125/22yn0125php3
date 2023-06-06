@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>EX15　yyJNccnn　四則演算の入力フォーム(送信)</title>
+</head>
+<body>
+    <form action="EX15.php" method="GET">
+        数値１:<input type="text" name="number1"><br>
+        数値２:<input type="text" name="number2"><br>
+
+        <input type="radio" id="radio1" name="arithmetic" value="add">
+        <label for="radio1">加算</label>
+
+        <input type="radio" name="arithmetic" id="radio2" value="sub">
+        <label for="radio2">減算</label>
+
+        <input type="radio" name="arithmetic" id="radio3" value="mult">
+        <label for="radio3">乗算</label>
+
+        <input type="radio" name="arithmetic" id="radio4" value="div">
+        <label for="radio4">除算</label>
+
+        <input type="radio" name="arithmetic" id="radio5" value="mod">
+        <label for="radio5">剰余</label>
+
+        <br>
+        <input type="submit" value="計算する">
+    </form>
+
+
+
+
+</body>
+</html>
